@@ -6,15 +6,15 @@ const Songbar = () => {
    const {seekbarref,time,seeksong, next,prev,seekbgref,playstatus,play,pause,track} = useContext(Playercontext);
   return (
    
-    <div className='  flex 
-  bg-gradient-to-r from-indigo-900 via-purple-900 to-pink-900 
+    <div className='  flex
+  bg-transparent
   justify-between 
   max-sm:justify-center max-sm:items-center 
-  fixed bottom-0 right-0 
+  sticky bottom-0 right-0 
   px-4  
   w-[100vw] h-[14vh] 
-  bg-white/10 backdrop-blur-lg border border-white/20 
-  rounded-t-xl shadow-xl'>
+   backdrop-blur-lg border border-white/20 
+  rounded-t-xl  shadow-xl'>
          
          <div className='flex gap-4 max-sm:hidden justify-center items-center '>
             <img className='h-12' src={track.image} alt="" />
@@ -35,8 +35,8 @@ const Songbar = () => {
             <div className='flex gap-2 text-gray-100 justify-center items-center'>
            <h1>{time.currenttime.minute}:{time.currenttime.second}</h1>
 
-           <div ref={seekbgref} onClick={seeksong} className=' w-60 max-w-[500px] bg-gray-300'>
-                      <hr ref={seekbarref} className=' h-[10px] bg-red-600 w-0 '/>
+           <div ref={seekbgref} onClick={seeksong} className='p-1 w-60 max-w-[500px] bg-gray-300'>
+                      <hr ref={seekbarref} className=' h-[8px]  rounded-r-2xl  bg-red-500 w-0 '/>
            </div>
            <h1>{time.totaltime.minute}:{time.totaltime.second}</h1>
             </div>

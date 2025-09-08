@@ -7,7 +7,7 @@ import { Playercontext } from './context/playercontext'
 const App = () => {
   const {audiaref,track} = useContext(Playercontext);
   return (
-    <div className='bg-black w-screen h-screen'>
+    <div className='bg-black '>
       <div className='flex h-[90%]'>
                <Sidebar />
                <Display />

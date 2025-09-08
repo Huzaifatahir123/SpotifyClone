@@ -5,7 +5,7 @@ import Album from './Album'
 import Song from './Song'
 const Displayhome = () => {
   return (
-    <div className=''>
+    <div className='flex overflow-auto flex-col '>
          <Navbar />
          <div className=''>
            <h1 className='font-bold text-2xl px-2 text-white my-5'>Featured  charts</h1>
