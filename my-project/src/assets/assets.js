@@ -39,7 +39,13 @@ import img14 from './img14.jpg'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
 import img17 from './images.jpeg'
-
+import taraynamau from "./Taray Naam.mp3"
+import taraynamimg from "./Tairay naam.jpeg"
+import Fasimg from "./Fasle.jpeg"
+import tereimg from "./Tere pyar me.jpg"
+import Fasle from "./Fasle.mp3"
+import naziaimg from "./nazia hassan.jpeg"
+import Terepyar from "./Tere Pyar me.mp3"
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
@@ -48,6 +54,9 @@ import song5 from  './N2.mp3'
 import song6 from  './N3.mp3'
 import song7 from  './N4.mp3'
 import song8 from  './N5.mp3'
+import mainrahun from  './Main rahun.mp3'
+import Samarjafriimg from  './Samarjafriimg.jpeg'
+
 
 export  const assets = {
     img1,
@@ -127,43 +136,45 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
-        image: img1,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:00"
+        name: "Tere Pyar Me",
+        image: tereimg,
+        file:Terepyar,
+        desc:"Kaavish",
+        duration:"5:02"
     },
     {
         id:1,
-        name: "Song Two",
-        image: img2,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:20"
+        name: "Fasle",
+        image: Fasimg,
+        file:Fasle,
+        desc:"Kaavish",
+        duration:"5:23"
     },
     {
         id:2,
-        name: "Song Three",
-        image: img3,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:32"
+        name: "Taray Naam",
+        image: taraynamimg,
+        file:taraynamau,
+        desc:"Kaavish",
+        duration:"5:27"
     },
+
     {
         id:3,
-        name: "Song Four",
-        image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:50"
+        name: "Main Rahun",
+        image: Samarjafriimg,
+        file:mainrahun,
+        desc:"Samar Jafri",
+        duration:"2:53"
     },
     {
         id:4,
-        name: "Song Five",
-        image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:10"
+          name: "aankhein milanay walay",
+        image: naziaimg,
+        file:song5,
+        desc:"Nazia Hassan",
+        duration:"3:20"
+        
     },
     {
         id:5,
@@ -197,16 +208,10 @@ export const songsData = [
         desc:"Put a smile on your face with these happy tunes",
         duration:"3:20"
     },
+
+
     {
         id:9,
-        name: "aankhein milanay walay",
-        image: img12,
-        file:song5,
-        desc:"Nazia Hassan",
-        duration:"3:20"
-    },
-    {
-        id:10,
         name: "aankhein milanay walay",
         image: img12,
         file:song6,
