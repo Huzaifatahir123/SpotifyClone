@@ -37,7 +37,7 @@ const Displayalbum = () => {
         <div onClick={()=>{playwithid(i)}} key={i} className='grid grid-cols-3 hover:bg-gray-500 sm:grid-cols-4 gap-22  p-2 items-center  text-[#a7a7a7]'>
             <p className='text-white flex '>
                 <b className='mr-2 text-[#a7a7a7]'>{i > 8 ? `${i+1}` : `0${i+1}`}</b>
-                <img className='inline object-cover w-10 mr-2' src={ele.image} alt="" /> {ele.name}
+                <img className='inline object-cover w-10 mr-2' src={ele.image} alt="" /> <h1 className='text-xs'>{ele.name}</h1>
             </p>
             <p className='sm:text-[15px] max-sm:text-xs '>{albumData.name}</p>
             <p className='text-[15px] hidden sm:block'>5 days ago</p>
